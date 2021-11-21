@@ -10,34 +10,29 @@
 </head>
 <body>
 
-    <h1>Etch A Sketch</h1>
+<h1>Etch A Sketch</h1>
 
 <div class="wrapper">
-<div class="controls-container">
+    <div class="controls-container">
 
-<p>Grid size: <span id="grid-size-label"></span></p>
-<input type="range" id="slider" min="2" max="64" value="64" step="1">
+        <p>Grid size: <span id="grid-size-label"></span></p>
+        <input type="range" id="slider" min="2" max="64" value="64" step="1">
 
+        <p>Background color</p>
+        <input type="color" id="color"  value="#90caf9">
 
+        <p>Pen color</p>
+        <input type="color" id="ink"  value="#ffc0cb">
+        <br>
 
+        <button id="rainbowMode">Rainbow mode</button>
+        <button id="erase">Erase everything</button>
 
-<p>Background color</p>
-<input type="color" id="color"  value="#90caf9">
+    </div>
 
-<p>Pen color</p>
-<input type="color" id="ink"  value="#ffc0cb">
-<br>
-<button id="rainbowMode">Rainbow mode</button>
-
-<button id="erase">Erase everything</button>
-
-</div>
-
-<div class="container"> 
-
-
-
-</div>
+    <div class="container"> 
+        <!-- divs are created by javascript here -->
+    </div>
 
 </div>
 

@@ -1,32 +1,18 @@
 
 * {
-
     --canvas-size: 600px;
     --backgroundcolor: #90caf9;
     --control-color: #2196f3;
-
-
-
 }
 
 body {
-
-
     background-color: #e3f2fd;
     font-family: sans-serif;
-
-
 }
 
 h1 {
     text-align: center;
     margin-top: 40px;
-}
-
-p {
-    color: white;
-    font-weight: 600;
-    margin-bottom: 8px;
 }
 
 .wrapper {
@@ -51,9 +37,13 @@ p {
     height: var(--canvas-size);
     border: 10px solid var(--control-color);
     border-radius: 10px;
-
 }
 
+p {
+    color: white;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
 
 .controls-container {
     background-color: var(--control-color);
@@ -77,6 +67,5 @@ button:hover{
 }
 
 .rainbowActive {
-
-    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,154,0,1) 10%, rgba(208,222,33,1) 20%, rgba(79,220,74,1) 30%, rgba(63,218,216,1) 40%, rgba(47,201,226,1) 50%, rgba(28,127,238,1) 60%, rgba(95,21,242,1) 70%, rgba(186,12,248,1) 80%, rgba(251,7,217,1) 90%, rgba(255,0,0,1) 100%);
+background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,154,0,1) 10%, rgba(208,222,33,1) 20%, rgba(79,220,74,1) 30%, rgba(63,218,216,1) 40%, rgba(47,201,226,1) 50%, rgba(28,127,238,1) 60%, rgba(95,21,242,1) 70%, rgba(186,12,248,1) 80%, rgba(251,7,217,1) 90%, rgba(255,0,0,1) 100%);
 }
